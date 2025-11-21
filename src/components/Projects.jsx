@@ -27,6 +27,12 @@ export default function Projects() {
       demo: "https://todolist304.netlify.app/",
       code: "https://github.com/prashanththota98/Todo-list.git",
     },
+    {
+      name: "Pagination",
+      desc: "pagination functionality practice for getting products in batches",
+      demo: "https://pagination-nine-mu.vercel.app",
+      code: "https://github.com/prashanththota98/pagination.git",
+    },
   ];
 
   return (
