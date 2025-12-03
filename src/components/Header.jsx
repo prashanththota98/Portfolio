@@ -14,11 +14,15 @@ export default function Header() {
 
   return (
     <header
-      className="fixed top-0 left-0 w-full
-                 bg-transparent 
-                 border-b border-b-blue-200
-                 md:bg-white/70 md:backdrop-blur-md md:border-none
-                 shadow z-50"
+      className={`fixed top-0 left-0 w-full
+              bg-transparent
+              ${
+                menuOpen
+                  ? "border-none shadow-none"
+                  : "border-b border-blue-100"
+              }
+              md:bg-white/70 md:backdrop-blur-md md:border-none
+              shadow z-50`}
     >
       <nav className="flex justify-between items-center px-4 sm:px-10 py-4">
         {/* Logo / Name */}
@@ -53,7 +57,7 @@ export default function Header() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
+            transition={{ duration: 0.1, ease: "easeInOut" }}
             className="md:hidden bg-transparent px-6 py-4 rounded-b-md"
           >
             <ul className="space-y-4 bg-transparent text-white font-medium">
