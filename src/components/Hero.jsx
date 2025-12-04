@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-4 sm:px-6 lg:px-16 bg-linear-to-r from-gray-900 via-gray-800 to-gray-700 text-white text-center md:text-left"
+      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-4 sm:px-6 lg:px-16  text-white text-center md:text-left"
     >
       {/* Text Section */}
       <motion.div

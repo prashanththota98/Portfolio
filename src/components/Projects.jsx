@@ -38,7 +38,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 px-4 sm:px-6 lg:px-16 bg-linear-to-l from-gray-900 via-gray-800 to-gray-700 text-white text-center"
+      className="py-20 px-4 sm:px-6 lg:px-16 text-white text-center "
     >
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
@@ -54,7 +54,7 @@ export default function Projects() {
           <motion.div
             key={p.name}
             whileHover={{ scale: 1.05 }}
-            className="bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-b-blue-300"
+            className="bg-gray-800/30 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-b-blue-300"
           >
             <h3 className="text-xl sm:text-2xl font-semibold">{p.name}</h3>
             <p className="mt-2 text-gray-300">{p.desc}</p>
