@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import "../index.css";
 
 export default function Projects() {
   const projects = [
@@ -54,7 +55,7 @@ export default function Projects() {
           <motion.div
             key={p.name}
             whileHover={{ scale: 1.05 }}
-            className="bg-gray-800/30 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-b-blue-300"
+            className="bg-gray-800/30 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300  gradient-border"
           >
             <h3 className="text-xl sm:text-2xl font-semibold">{p.name}</h3>
             <p className="mt-2 text-gray-300">{p.desc}</p>
