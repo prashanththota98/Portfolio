@@ -45,13 +45,13 @@ export default function Hero() {
         >
           <a
             href="https://github.com/prashanththota98"
-            className="px-6 py-2 bg-cyan-400 text-gray-900 rounded-full hover:bg-cyan-500 transition"
+            className="px-6 py-2 bg-cyan-400 text-white rounded-full hover:bg-cyan-500 transition"
           >
             GitHub
           </a>
           <a
             href="https://www.linkedin.com/in/prashanththota"
-            className="px-6 py-2 bg-pink-500 text-gray-900 rounded-full hover:bg-pink-600 transition"
+            className="px-6 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 transition"
           >
             LinkedIn
           </a>
@@ -63,7 +63,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 50, scale: 0.8 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0"
+        className="md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0 "
       >
         <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-60 lg:h-60 rounded-full overflow-hidden border-4 border-cyan-400 shadow-xl shadow-cyan-500/50">
           <img

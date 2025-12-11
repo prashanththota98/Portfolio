@@ -17,6 +17,13 @@ export default function Projects() {
     },
 
     {
+      name: "GitHub Profile Visualizer",
+      desc: "A mini GitHub Profile Visualizer with pages for profile search, repository display, and basic analysis of GitHub user activity.Used Environment varaibles",
+      demo: "https://gpv-six.vercel.app",
+      code: "https://github.com/prashanththota98/gpv.git",
+    },
+
+    {
       name: "Rock-Paper-Scissor",
       desc: "Interactive Rock–Paper–Scissors game built with React and state-based logic",
       demo: "https://rps123.ccbp.tech",

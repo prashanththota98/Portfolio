@@ -30,7 +30,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-20 px-4 sm:px-6 lg:px-16  text-white text-center"
+      className="py-20 px-4 sm:px-6 lg:px-16  text-white text-center "
     >
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
