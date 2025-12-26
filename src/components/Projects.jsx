@@ -4,6 +4,12 @@ import "../index.css";
 export default function Projects() {
   const projects = [
     {
+      name: "GitHub Profile Visualizer",
+      desc: "A mini GitHub profile visualizer with profile search, repository display, and basic GitHub activity analysis, securely using environment variables.",
+      demo: "https://gpv-six.vercel.app",
+      code: "https://github.com/prashanththota98/gpv.git",
+    },
+    {
       name: "NxtTrends",
       desc: "Full e-commerce frontend with product listing, filters, cart, and responsive UI built using React",
       demo: "https://nxttrendz304.ccbp.tech",
@@ -15,14 +21,6 @@ export default function Projects() {
       demo: "https://nxtwatchpra.ccbp.tech",
       code: "https://github.com/prashanththota98/nxt_watch.git",
     },
-
-    {
-      name: "GitHub Profile Visualizer",
-      desc: "A mini GitHub Profile Visualizer with pages for profile search, repository display, and basic analysis of GitHub user activity.Used Environment varaibles",
-      demo: "https://gpv-six.vercel.app",
-      code: "https://github.com/prashanththota98/gpv.git",
-    },
-
     {
       name: "Rock-Paper-Scissor",
       desc: "Interactive Rock–Paper–Scissors game built with React and state-based logic",

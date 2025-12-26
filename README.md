@@ -1,11 +1,11 @@
-# 🌐 Portfolio Website
+# Portfolio Website
 
-A clean and responsive personal portfolio built with **React**, **Vite**, and **Tailwind CSS**.  
+A clean and responsive personal portfolio built with React, Vite, Framer-Motion and Tailwind CSS.  
 This website showcases my skills, projects, and contact information in a modern layout.
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - React
 - Vite
@@ -13,7 +13,7 @@ This website showcases my skills, projects, and contact information in a modern 
 
 ---
 
-## ✨ Features
+## Features
 
 - Fully responsive design
 - Smooth section navigation
@@ -23,19 +23,19 @@ This website showcases my skills, projects, and contact information in a modern 
 
 ---
 
-## 📦 Installation
+## Installation
 
 npm install
 npm run dev
 
 ---
 
-## 🛠️ Build:
+## Build:
 
 npm run build
 
 ---
 
-## 🚀 Deployment:
+## Deployment:
 
-Vercel this is enough
+Vercel

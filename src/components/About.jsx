@@ -21,10 +21,11 @@ export default function About() {
         transition={{ delay: 0.3 }}
         className="mt-4 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto text-gray-300 leading-relaxed"
       >
-        I'm Prashanth Thota, a Front-End Developer skilled in React.js, Tailwind
-        CSS, Node.js, and API integrations. I'm currently learning Next.js,
-        advanced Git workflows, and animation techniques with CSS keyframes and
-        Framer Motion.
+        Frontend Developer with a strong foundation in building responsive,
+        user-friendly web applications using React.js, JavaScript, and Tailwind
+        CSS. Skilled in component-based architecture and creating clean,
+        intuitive UIs. Currently expanding knowledge of Next.js and deepening
+        skills in unit/component testing with Jest and React Testing Library.
       </motion.p>
     </section>
   );
