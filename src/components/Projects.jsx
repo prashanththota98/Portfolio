@@ -22,6 +22,18 @@ export default function Projects() {
       code: "https://github.com/prashanththota98/nxt_watch.git",
     },
     {
+      name: "Taskify",
+      desc: "A simple app like todo that is done using TypeScript",
+      demo: "https://tspractice.netlify.app",
+      code: "https://github.com/prashanththota98/Taskify",
+    },
+    {
+      name: "Logo e-commerce",
+      desc: "A single page application that has sidebar and products with pagination and customized dropdowns and resposnive design for mobiles, tabs and desktops",
+      demo: "https://logo-e-com.netlify.app/",
+      code: "https://github.com/prashanththota98/Appscrip-task",
+    },
+    {
       name: "Rock-Paper-Scissor",
       desc: "Interactive Rock–Paper–Scissors game built with React and state-based logic",
       demo: "https://rps123.ccbp.tech",

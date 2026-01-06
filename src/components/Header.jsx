@@ -34,7 +34,7 @@ export default function Header() {
             <motion.li
               key={item.name}
               whileHover={{ scale: 1.1, color: "#2563eb" }} // blue-600
-              transition={{ type: "spring", stiffness: 200 }}
+              transition={{ type: "tween", duration: 0.1, ease: "easeOut" }}
             >
               <a href={item.href} className="transition">
                 {item.name}

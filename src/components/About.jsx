@@ -21,11 +21,15 @@ export default function About() {
         transition={{ delay: 0.3 }}
         className="mt-4 text-base sm:text-lg lg:text-xl max-w-3xl mx-auto text-gray-300 leading-relaxed"
       >
-        Frontend Developer with a strong foundation in building responsive,
-        user-friendly web applications using React.js, JavaScript, and Tailwind
-        CSS. Skilled in component-based architecture and creating clean,
-        intuitive UIs. Currently expanding knowledge of Next.js and deepening
-        skills in unit/component testing with Jest and React Testing Library.
+        I’m a Frontend Developer who enjoys building responsive, user-friendly
+        web applications with React.js, JavaScript, and Tailwind CSS, with a
+        strong focus on component-based architecture and clean, intuitive UI
+        design. I also have hands-on experience with basic backend development
+        using Express.js, including building RESTful CRUD APIs, working with
+        SQLite databases, implementing secure password hashing, and token-based
+        authentication. Currently, I’m expanding my skill set by learning
+        Next.js and strengthening unit and component testing practices with Jest
+        and React Testing Library.
       </motion.p>
     </section>
   );
