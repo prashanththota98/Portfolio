@@ -22,6 +22,12 @@ export default function Projects() {
       code: "https://github.com/prashanththota98/nxt_watch.git",
     },
     {
+      name: "fresh fruits",
+      desc: "A simple app that is build to practice animations like framer-motion",
+      demo: "https://ffreshfruits.netlify.app/",
+      code: "https://github.com/prashanththota98/fruits-app",
+    },
+    {
       name: "Taskify",
       desc: "A simple app like todo that is done using TypeScript",
       demo: "https://tspractice.netlify.app",
@@ -46,10 +52,10 @@ export default function Projects() {
       code: "https://github.com/prashanththota98/Todo-list.git",
     },
     {
-      name: "Pagination",
-      desc: "pagination functionality practice for getting products in batches",
-      demo: "https://pagination-nine-mu.vercel.app",
-      code: "https://github.com/prashanththota98/pagination.git",
+      name: "Mojito",
+      desc: "currently working personal practice project focused on mastering GSAP animations. Implemented ScrollTrigger-based animations, text animations using SplitText, and smooth scroll interactions",
+      demo: "https://mojito-kohl-five.vercel.app/",
+      code: "https://github.com/prashanththota98/Mojito",
     },
   ];
 
