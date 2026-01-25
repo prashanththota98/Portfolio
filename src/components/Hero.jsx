@@ -24,7 +24,7 @@ export default function Hero() {
           className="text-base sm:text-lg md:text-xl lg:text-2xl font-light"
         >
           Front-End Developer | React & Next.js <br />
-          Backend Experience with Express.js
+          Backend with Express.js
           {/* Front-End Developer | React & Next.js Enthusiast */}
         </motion.p>
 
