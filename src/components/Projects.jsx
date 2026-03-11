@@ -6,7 +6,7 @@ export default function Projects() {
     {
       name: "GitHub Profile Visualizer",
       desc: "A mini GitHub profile visualizer with profile search, repository display, and basic GitHub activity analysis, securely using environment variables.",
-      demo: "https://gpv-six.vercel.app",
+      demo: "https://gpv-livid.vercel.app",
       code: "https://github.com/prashanththota98/gpv.git",
     },
     {
