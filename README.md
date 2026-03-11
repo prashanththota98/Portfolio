@@ -1,7 +1,14 @@
 # Portfolio Website
 
-A clean and responsive personal portfolio built with React, Vite, Framer-Motion and Tailwind CSS.  
-This website showcases my skills, projects, and contact information in a modern layout.
+## Overview
+
+This portfolio showcases my frontend development skills, including React, Tailwind, and Framer Motion projects. It demonstrates responsive layouts, animations, modular component design, and API integrations.
+
+---
+
+## Live Demo
+
+https://portfolio-one-pink-44.vercel.app
 
 ---
 
